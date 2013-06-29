@@ -1,4 +1,6 @@
 CocktailMaker::Application.routes.draw do
+
+  resources :drinks, only: [:new, :create]
   root to: 'static_pages#home'
   match '/help', to: 'static_pages#help'
   get "/drinks(.:format)" => "drinks#index"
