@@ -1,20 +1,8 @@
 A First Level Header
 ====================
 
-A Second Level Header
----------------------
 
-Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.
+Drone.io Build Status: [![Build Status](https://drone.io/github.com/mikeyb555/angular_muckaround/status.png)](https://drone.io/github.com/mikeyb555/angular_muckaround/latest)
 
-The quick brown fox jumped over the lazy
-dog's back.
+The purpose of this application is to learn about Ruby on Rails and AngularJS. Its a simple CRUD application displaying cocktails and videos on how to make them.
 
-### Header 3
-
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> ## This is an H2 in a blockquote
