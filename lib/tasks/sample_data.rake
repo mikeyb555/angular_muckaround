@@ -7,5 +7,7 @@ namespace :db do
                   video_id: "mHYDjO1DgGA")
     Drink.create!(name: "Bloody Mary",
                   video_id: "Alt-ehDc3fc")
+    Drink.create!(name: "The Grinch Cocktail",
+                  video_id: "EIH7cBmc5r0")
   end
 end

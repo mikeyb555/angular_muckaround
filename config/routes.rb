@@ -1,5 +1,6 @@
 CocktailMaker::Application.routes.draw do
   root to: 'static_pages#home'
+  match '/help', to: 'static_pages#help'
   get "/drinks(.:format)" => "drinks#index"
   get "/drinks/:id(.:format)" => "drinks#show"
 
