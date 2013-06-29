@@ -1,0 +1,8 @@
+<div class="select-display" ng-show="selected">
+    <label>Put your Bartender name in here (gimmick win!):</label>
+    <input type="text" ng-model="yourName" placeholder="Enter a name here">
+    <hr>
+    <h1>Hello {{yourName}}!</h1>
+    <h1>Drink Name: {{selectedDrink.name}}</h1>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/{{selectedDrink.video_id}}" frameborder="0" allowfullscreen></iframe>
+</div>

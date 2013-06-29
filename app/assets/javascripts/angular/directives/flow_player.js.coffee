@@ -1,8 +1,7 @@
 App.directive 'flowPlayer', ->
   (scope, element, attrs) ->
 
-    # Trigger when the selectedScreencast function is called
-    # with a screencast
+
     scope.$watch 'selectedDrink', (drink) ->
       if drink
 

@@ -1,5 +1,8 @@
 CocktailMaker::Application.routes.draw do
   root to: 'static_pages#home'
+  get "/drinks(.:format)" => "drinks#index"
+  get "/drinks/:id(.:format)" => "drinks#show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
