@@ -1,0 +1,31 @@
+<div class="row" ng-controller="ListCtrl">
+    <aside class="span4">
+        <%= render 'order_list' %>
+
+    </aside>
+    <div class="span8">
+        <div>
+
+            <div>
+                <div ng-hide="selected">
+                    <div class="hero-unit">
+                        <h1>Welcome to Cocktail Maker!</h1>
+                    </div>
+
+                </div>
+                <div ng-show="selected">
+                    <label>Put your Bartender name in here (gimmick win!):</label>
+                    <input type="text" ng-model="yourName" placeholder="Enter a name here">
+                    <hr>
+                    <h1>Hello {{yourName}}!</h1>
+                    <h1>Drink Name: {{selectedDrink.name}}</h1>
+                    <iframe width="560" height="315" src="//www.youtube.com/embed/{{selectedDrink.video_url}}" frameborder="0" allowfullscreen></iframe>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
