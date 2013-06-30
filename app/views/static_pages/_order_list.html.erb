@@ -1,5 +1,9 @@
-<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-    <div ng-model = "selection" ng-repeat="drink in drinks">
-        <li><a tabindex="-1" href="#" ng-click = "showDrink(drink)">{{drink.name}}</a></li>
-    </div>
-</ul>
+<div class="well">
+    <ul class="nav nav-list">
+        <div ng-model = "selection" ng-repeat="drink in drinks">
+            <li><a tabindex="-1" href="#" ng-click = "showDrink(drink)">{{drink.name}}</a></li>
+            <li class="divider"></li>
+        </div>
+    </ul>
+
+</div>

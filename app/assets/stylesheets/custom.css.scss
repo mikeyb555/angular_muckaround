@@ -291,6 +291,23 @@ aside {
 .hero-unit {
   background-color: $orange;
 
+  li {
+    &:last-child {
+      border-bottom: 1px solid $grayLighter;
+    }
+  }
+
+}
+
+.span4.well {
+  max-width: 340px;
+  padding: 8px 0;
+
+}
+
+.video-frame iframe {
+  margin: 0 auto;
+  display: block;
 }
 
 
